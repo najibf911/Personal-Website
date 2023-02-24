@@ -17,8 +17,8 @@ Non Responsive Personal Website Using HTML, CSS &amp; JavaScript
  2. Free Illustration to help in programming
  3. Free Open Source Software & tools for programming
  
-![preview image](/Screenshot/Website Image.png)
-![preview image](/Screenshot/Website Image 2.png)
-![preview image](/Screenshot/Website Image 3.png)
-![preview image](/Screenshot/Website Image 4.png)
-![preview image](/Screenshot/Website Image 5.png)
+![preview image](https://github.com/najibf911/My-Simple-Personal-Website/blob/main/Screenshot/Website%20Image.png)
+![preview image](https://github.com/najibf911/My-Simple-Personal-Website/blob/main/Screenshot/Website%20Image%202.png)
+![preview image](https://github.com/najibf911/My-Simple-Personal-Website/blob/main/Screenshot/Website%20Image%203.png)
+![preview image](https://github.com/najibf911/My-Simple-Personal-Website/blob/main/Screenshot/Website%20Image%204.png)
+![preview image](https://github.com/najibf911/My-Simple-Personal-Website/blob/main/Screenshot/Website%20Image%205.png)
