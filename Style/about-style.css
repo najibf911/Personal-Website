@@ -1,0 +1,53 @@
+
+body{
+    /* background-color: white; */
+    background-image: url(../Images/background-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Esteban', serif, 'Hind Vadodara', sans-serif, 'Martel Sans', sans-serif;
+}
+
+
+/* CONTENT START */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+    padding: 20px;
+}
+
+.left-content-wrapper {
+    width: 50vw;
+}
+
+
+.right-content-wrapper {
+    width: 40vw;
+    text-align: justify;
+    padding-right: 15vh;
+    padding-left: 1vh;
+    color: white;
+}
+
+
+.right-content-wrapper p {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+}
+/* CONTENT END */
+
+footer {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: small;
+    /* font-weight: bold; */
+    font-style: italic;
+    background-color: #6695ff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

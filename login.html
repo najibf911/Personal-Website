@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Najib's Website</title>
+    <!-- ICONS -->
+    <link rel="icon" href="Images/SVG/Logo.svg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style/login-style.css">
+    <link rel="stylesheet" href="Style/background-style.css">
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Hind+Vadodara:wght@300&family=Martel+Sans:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <!-- BACKGROUND START -->
+    <video id="myVideo" autoplay loop muted >
+        <source src="Videos/y2mate.com - Blue blur  HD animated background 152_1080p.mp4" type="video/mp4">
+    </video>
+    <!-- BACKGROUND END -->
+
+    <div class="content-wrapper">
+        <div class="left-content">
+            
+            <img src="Images/Hello.svg" alt="Login Images">
+            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_tzjfwgud.json"  background="transparent"  speed="1"  style="width: 40vw;"  loop autoplay></lottie-player> -->
+
+        </div>
+
+        <div class="right-content">
+            <div class="container">
+                <div class="title-login">
+                    <img src="Images/SVG/Logo.svg" alt="Website Logo">
+                    <h2 style="font-size: 50px; color: white;">Hello Again!</h2>
+                </div>
+               
+                <form id="login-form">
+                    <label for="username">Username</label>
+                    <br>
+                    <input type="text" id="username" name="username">
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <!-- <a href="index.html">Log in</a>  -->
+                    <button type="submit" id="login-button">Log In</button>
+                    <!-- <input type="submit" value="Log in"  onclick="validateForm(); return false;"> -->
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="Javascript/background-video.js"></script>
+    <script src="Javascript/login-jsscript.js"></script>
+</body>
+</html>

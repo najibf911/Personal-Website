@@ -1,0 +1,121 @@
+body{
+    /* background-color: white; */
+    background-image: url(../Images/background-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Esteban', serif, 'Hind Vadodara', sans-serif, 'Martel Sans', sans-serif;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+.left-navbar {
+    color: white;
+    padding-left: 15vh;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo-text {
+    font-size: larger;
+    margin-left: 2vh;
+}
+
+.right-navbar {
+    display: flex;
+}
+
+.nav-button {
+    font-size: small;
+    width: 80px;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin-inline-end: 10px;
+}
+
+.nav-button a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: #91919154;
+}
+
+.nav-button a:hover {
+    font-weight: 900;
+}
+
+.login-button {
+    font-size: small;
+    font-weight: bolder;
+    width: 80px;
+    color: white;
+    background-color: #6695ff;
+    border-radius: 30px;
+    border-color: #6695ff;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    border-color: white;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 100;
+    font-family: 'Esteban';
+    color: white;
+}
+
+.first-content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-content img{
+    width: 25vw;
+}
+
+.first-content h1{
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: small;
+    /* font-weight: bold; */
+    font-style: italic;
+    background-color: #6695ff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

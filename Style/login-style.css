@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+    background-image: url(../Images/background-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Esteban', serif, 'Hind Vadodara', sans-serif,  'Martel Sans', sans-serif;
+}
+
+/* CONTENT START */
+.content-wrapper {
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-login img{
+  width: 4vw;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+}
+
+form a{
+  text-decoration: none;
+  color: white;
+  background-color: #407bff;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 3% 7%;
+  border-radius: 1.2rem;
+}
+
+form a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  border-radius: 1.2rem;
+  padding: 3% 7%;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2vh 0 2vh 0;
+  box-sizing: border-box;
+  border: 2px solid #6695ff;
+  border-radius: 20px;
+}
+
+input[type="password"] {
+  margin-bottom: 5vh;
+}
+
+input[type="submit"] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#login-button {
+  background-color: #407bff;
+  border-radius: 13px;
+  padding: 2% 10%;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+#login-button:hover {
+  background-color: #558bfe;
+}
+
+.login-button {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #407bff;
+    cursor: pointer;
+}
+  
+.login-button a {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.login-button a:hover {
+  border-color: white;
+}
+/* CONTENT END */
+
+
+/* MEDIA QUERIES */
+
+/* LAPTOP */
+@media (max-width: 1450px) {
+  html {
+      font-size: 83%;
+  }
+}
+
+/* TABLET */
+@media (max-width: 1000px) {
+  html {
+      font-size: 65%;
+  }
+}
+
+
+
+/* SMARTPHONE */

@@ -1,0 +1,125 @@
+
+body{
+    /* background-color: white; */
+    background-image: url(../Images/background-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0px;
+    /* font-family: 'Esteban', serif, 'Hind Vadodara', sans-serif, 'Martel Sans', sans-serif; */
+}
+
+/* CONTENT START*/
+.first-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vh;
+    height: 60vh;
+    padding-bottom: 5vh;
+}
+
+.first-left-content {
+    flex-basis: 50%;
+    
+}
+
+.first-left-content img {
+    width: 30vw;
+}
+
+.first-right-content {
+    flex-basis: 50%;
+    padding-right: 5vw;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 100;
+    font-family: 'Esteban';
+    color: white;
+}
+
+.first-right-content p {
+    font-size: 1.2rem;
+    font-family: 'Martel Sans Light';
+    text-align: justify;
+    padding-right: 4.5vw;
+    color: white;
+}
+
+.second-content {
+    margin-bottom: 10vh;
+}
+
+.second-title-content {
+    padding-left: 8.5vw;
+    margin-bottom: 15vh;
+}
+
+.second-grid-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.image-container img{
+    height: 12rem;
+    margin-bottom: 5vh;
+}
+  
+.image-container:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ;
+}
+
+.p-type1 {
+    color: white;
+    font-family: 'Hind Vadodara';
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.p-type2 {
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Martel Sans Light';
+}
+/* CONTENT END */
+
+/* FOOTER */
+footer {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: small;
+    /* font-weight: bold; */
+    font-style: italic;
+    background-color: #6695ff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* MEDIA QUERIES */
+
+/* LAPTOP */
+@media (max-width: 1450px) {
+    html {
+        font-size: 83%;
+    }
+}
+
+/* TABLET */
+@media (max-width: 1000px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+
+
+/* SMARTPHONE */
